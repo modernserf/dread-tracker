@@ -1,0 +1,41 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+html{
+  max-width: 960px;
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+label, textarea, input {
+  display: block;
+}
+
+textarea{
+  height: 8em;
+}
+
+label, textarea {
+  width: 100%;
+  max-width: 40em;
+}
+
+.flash,
+.error {
+  padding: 1em 0.5em;
+  display: none;
+}
+
+.flash {
+  background-color: #CFC;
+  color: #090;
+
+}
+
+.error {
+  background-color: #FCC;
+  color: #900;
+
+}
